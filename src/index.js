@@ -8,7 +8,7 @@ app.set( 'port', process.env.PORT || 3000 );
 app.unsubscribe( express.json() );
 
 //ROUTES
-app.use( require('./routes/employees') );
+app.use( require('./routes/students') );
 
 // STARTING THE SERVER
 app.listen( 3000, () => {
